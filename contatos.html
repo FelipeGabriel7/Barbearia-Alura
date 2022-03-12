@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/produtos.css">
+    <title>Contatos</title>
+</head>
+
+<body>
+    <div class="caixa">
+        <header class="inicio">
+            <h1><img src="assets/img/logo.png" class="logo"></h1>
+            <div class="options">
+                <nav>
+                    <ul class="lista">
+                        <li> <a href="index.html"> Home </a> </li>
+                        <li> <a href="contatos.html"> Contato </a></li>
+                        <li> <a href="produtos.html">Produtos </a> </li>
+                    </ul>
+                </nav>
+            </div>
+    </div>
+    </header>
+
+    <section class="caixa">
+        <div class="formulario-contato">
+            <form>
+                <label for="nome"> Nome </label>
+                <input type="text" placeholder="digite seu nome" id="nome" class="padrao" required>
+
+                <label for="emailUser"> Email </label>
+                <input type="email" placeholder="email@example.com" id="emailUser" class="padrao" required>
+
+                <label for="telefone"> Telefone </label>
+                <input type="tel" placeholder="(XX) XXXXX-XXXX" id="telefone" class="padrao" required>
+
+                <label for="msg">Mensagem</label>
+                <textarea cols="70" rows="10" placeholder="Nos conte um pouco sobre voce" id="msg" required></textarea>
+                <fieldset class="cont">
+                    <legend> Como prefere o nosso Contato? </legend>
+
+                    <label for="radio-email"> <input type="radio" name="contato " value="WathsApp" id="radio-email"
+                            class="radio-box" required>Email</label>
+
+                    <label for="radio-ligaçao"> <input type="radio" name="contato" value="Ligaçao" id="radio-ligaçao"
+                            class="radio-box" required>Ligaçao</label>
+
+
+                    <label for="radio-Whats"> <input type="radio" name="contato" value="WathsApp" id="radio-Whats"
+                            class="radio-box" required>
+                        WathsApp</label>
+
+                </fieldset>
+
+                <fildset>
+                    <legend> Qual horario voce prefere ser atendido ?</legend>
+                    <select>
+                        <option> Manha </option>
+                        <option> Tarde </option>
+                        <option> Noite </option>
+                    </select>
+                </fildset>
+                <label><input type="checkbox" id="check"> Gostaria de receber novidades por email?</label>
+
+                <input type="submit" value="Enviar" class="enviar">
+
+            </form>
+        </div>
+        <table class="info">
+            <thead>
+                <tr>
+                    <th> Dias</th>
+                    <th>Horarios</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td> Segunda</td>
+                    <td> 8 ~ 20h</td>
+                </tr>
+                <tr>
+                    <td> Quarta</td>
+                    <td>8 ~ 20h</td>
+                </tr>
+                <tr>
+                    <td> Sexta </td>
+                    <td> 8 ~ 20h</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </section>
+
+    <footer class="fim">
+        <p class="image-fim"> <img src="assets/img/logo-branco.png"></p>
+        <p class="corp">&copy; Corpyrigth Barbearia Alura - 2022</p>
+
+    </footer>
+</body>
+
+
+</html>
